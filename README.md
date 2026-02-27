@@ -55,16 +55,16 @@ Escalates complex cases to human agents with full conversation summary
 Stores chat logs securely for future learning
 
 
-# Tech Stack
+## Tech Stack
 
-AI & Intelligence
+# AI & Intelligence
 
 OpenAI GPT (context-aware diagnosis)
 
 Hugging Face (sentiment analysis)
 
 
-#Frontend
+# Frontend
 
 React.js (Vite)
 
