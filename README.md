@@ -1,73 +1,102 @@
-# Welcome to your Lovable project
+# Welcome to WEB EMPERORS – Hackathon Submission
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Project Title
 
-## How can I edit this code?
+Banking Buddy AI — Intelligent AI Support Assistant for Digital Banking
 
-There are several ways of editing your application.
+**URL**: https://banking-buddy-02.lovable.app/auth
 
-**Use Lovable**
+# Problem Statement
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Millions of banking customers face technical issues daily — failed UPI payments, login errors, OTP failures, transaction delays, mobile app crashes, and more. Traditional customer support systems:
+Make users wait in long queues
 
-Changes made via Lovable will be committed automatically to this repo.
+Require repeating the same issue multiple times
 
-**Use your preferred IDE**
+Fail to detect urgency or frustration
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Increase operational costs for banks
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+There is a clear need for a smart, scalable, AI-driven support system that can:
 
-Follow these steps:
+Diagnose problems intelligently
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Ask context-based follow-up questions
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Provide step-by-step resolutions
 
-# Step 3: Install the necessary dependencies.
-npm i
+Escalate complex issues to human agents
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Learn from past interactions
 
-**Edit a file directly in GitHub**
+Banking Buddy AI is a 24/7 AI-powered support engineer built for digital banking platforms.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
 
-**Use GitHub Codespaces**
+# Our Solution
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Banking Buddy AI is a 24/7 AI-powered support engineer built for digital banking platforms.
 
-## What technologies are used for this project?
+The chatbots does the following
 
-This project is built with:
+Understands user issues using Natural Language Understanding
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Identifies issue category (UPI, login, mobile app, general queries)
 
-## How can I deploy this project?
+Performs root-cause detection through dynamic questioning
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Provides clear, step-by-step solutions
 
-## Can I connect a custom domain to my Lovable project?
+Detects user frustration via sentiment analysis
 
-Yes, you can!
+Escalates complex cases to human agents with full conversation summary
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Stores chat logs securely for future learning
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+
+# Tech Stack
+
+AI & Intelligence
+
+OpenAI GPT (context-aware diagnosis)
+
+Hugging Face (sentiment analysis)
+
+
+#Frontend
+
+React.js (Vite)
+
+Tailwind CSS
+
+Modern UI/UX design principles
+
+
+# Backend
+
+Supabase (Database + Authentication)
+
+REST API architecture
+
+Secure environment-based API key handling
+
+
+# Security
+
+JWT-based authentication
+
+Environment variables for API keys
+
+Role-based access structure
+
+Secure database queries
+
+
+# Monitoring & Analytics
+
+Sentry (Error tracking)
+
+Structured logging system
+
+Architecture Overview
